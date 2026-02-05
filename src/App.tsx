@@ -5,7 +5,9 @@ import Counter from './Counter';
 function App() {
   return (
     <>
+      <p>useCallback</p>
       <Counter />
+      <p>useMemo</p>
       <ComplexComponent />
     </>
   );
